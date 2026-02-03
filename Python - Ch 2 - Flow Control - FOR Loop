@@ -1,0 +1,5 @@
+
+x = "Starting The Code Challenge"
+
+for i in range(6):
+    print(x)
