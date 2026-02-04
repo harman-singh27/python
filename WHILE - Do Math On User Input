@@ -1,0 +1,19 @@
+print ("Starting Code Challenge")
+
+print ("Enter an integer number 20 or greater > 20")
+
+
+x = int(input())
+
+print ("The user input started as ", x)
+
+i = 0 
+
+
+while x > 1:
+    print("The current value of the user input after some math is", (x/2))
+    x = (x/2)
+     
+    i = i + 1 
+
+print("The While loop, looped" , i, "time" )
