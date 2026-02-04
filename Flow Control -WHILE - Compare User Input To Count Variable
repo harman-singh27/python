@@ -1,0 +1,22 @@
+def main():
+    print ("Starting Code Challenge")
+    
+    n = int(input())
+    
+    
+    print ("Starting While Loop")
+    
+    i = 0 
+    
+    while i < 10:
+        i = i + 1
+        if i == n:
+            print("The User variable is equal to the count variable. ")
+            print("User = ", n)
+            print("Count = ", i)
+            continue
+        
+        print(i)
+    print("Ending Loop")
+    
+main()
