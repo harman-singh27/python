@@ -1,0 +1,4 @@
+def main(x,y):
+    z = (x * y)
+    print (z)
+main(4,3)
