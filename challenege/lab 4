@@ -1,0 +1,22 @@
+def calculator(x, y, calculate='+'):
+    
+    if calculate == '+':
+        return x + y
+    elif calculate == '-':
+        return x - y
+    elif calculate == '*':
+        return x * y
+    elif calculate == '/':
+       
+        if y != 0:
+            return x / y
+             
+        else:
+            return "Error: Division by zero"
+    else:
+        return "Invalid Operation"
+
+print(calculator(10, 9))       
+print(calculator(10, 5, '-'))  
+print(calculator(10, 5, '*'))  
+print (calculator(3,5,'/'))
