@@ -1,0 +1,17 @@
+def main():
+    
+    
+    z = True
+    while z == True:
+        x = input("Enter a Value for x: ")
+        y = input("Enter a Value for y: ")
+        try: 
+            x = int(x) 
+            y = int(y)
+            z = False
+        except:
+            z = True 
+            print("try again")
+        
+    
+main()
