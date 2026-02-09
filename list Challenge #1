@@ -1,0 +1,8 @@
+# Python Lists
+x = 42
+print(x)
+print(type(x))
+thelist = [1,3,5,23,9,14]
+thelist.append(x)
+print(thelist)
+print(type(thelist))
