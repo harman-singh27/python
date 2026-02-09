@@ -1,0 +1,12 @@
+x = 42
+print(x)
+print(type(x))
+thelist = [1,3,5,23,9,14]
+thelist.append(x)
+print(thelist)
+print(type(thelist))
+print("creating a list of mixed Type Objects")
+x = ['fName', 'lName', 25, True, 4.2]
+print('x is now a list of mixed objects')
+print(x)
+print(type(x))
